@@ -1,0 +1,76 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <div class="ui four cards">
+    <div class= "card">
+      <h2 class= "ui left aligned">
+        {{station.name}}
+      </h2>
+      <h3 class="ui left aligned">
+        Weather:
+        <div class="ui text center aligned">
+          <div>
+            {{station.code}}
+          </div>
+          <div>
+            {{station.weatherCode}}
+          </div> 
+        </div>
+      </h3>
+      <p>
+        
+      </p>
+     </div>
+    <div class= "card">
+      <h3 class= "ui left aligned">
+        Temperature: 
+        <div class="ui text center aligned">
+          {{station.tempC}} C
+        </div>
+         <div class="ui text center aligned">
+          {{station.tempF}} F
+        </div>
+      </h3>
+      <div>
+        <i class="large red temperature high icon"></i>
+      </div>     
+    </div>
+    <div class="card">
+      <h3 class= "ui left aligned">
+        Wind: 
+        <div class="ui text center aligned">
+          {{station.windBft}} Bft
+        </div>
+        <div class="ui text center aligned">
+          {{station.windSpeed}} Km/h
+        </div>
+        <div class= "ui text center aligned">
+          {{station.windCompass}}
+        </div>
+        <div class="ui text center aligned">
+         Feels Like: {{station.windChill}}
+        </div>
+      </h3>
+      <div>
+        <i class= "large green wind icon"></i>
+      </div>
+      <div>
+         <i class= "large compass icon"></i> 
+      </div> 
+    </div>
+    <div class="card">
+      <h3 class="ui left aligned">
+        Pressure:
+         <div class="ui text center aligned">
+          {{station.pressure}} hPa
+        </div>
+      </h3>
+      <div>
+        <i class="large blue centos icon"></i>
+      </div> 
+    </div>
+            
+  </div>
+  {{> listreadings}}
+  {{> addreading}}
+</section>
