@@ -1,0 +1,81 @@
+{
+  "stationCollection": [
+    {
+      "id": "01",
+      "name": "Dunmore",
+      "latitude": "52.149",
+      "longitude": "-6.994",
+      "readings": [
+        {
+          "id": "03",
+          "code": "800",
+          "temperature": "0.5",
+          "windSpeed": "3.5",
+          "windDirection": "220",
+          "pressure": "1002",
+          "date": "2021"
+        },
+        {
+          "id": "04",
+          "code": "600",
+          "temperature": "6",
+          "windSpeed": "2",
+          "windDirection": "200",
+          "pressure": "1004",
+          "date": "2021"
+        },
+        {
+          "id": "05",
+          "code": "700",
+          "temperature": "8",
+          "windSpeed": "1",
+          "windDirection": "90",
+          "pressure": "1005",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Tramore",
+      "latitude": "52.160",
+      "longitude": "-7.152",
+      "readings": [
+        {
+          "id": "06",
+          "code": "700",
+          "temperature": "8",
+          "windSpeed": "1",
+          "windDirection": "120",
+          "pressure": "999",
+          "date": "2021"
+        },
+        {
+          "id": "07",
+          "code": "200",
+          "temperature": "0.5",
+          "windSpeed": "3.5",
+          "windDirection": "150",
+          "pressure": "1000",
+          "date": "2021"
+        },
+        {
+          "id": "08",
+          "code": "300",
+          "temperature": "9",
+          "windSpeed": "6",
+          "windDirection": "180",
+          "pressure": "888",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "id": "c25ad320-2ef9-11ed-b9aa-7f93fbc1d789",
+      "name": "Lahinch",
+      "latitude": "52.9335",
+      "longitude": "9.3441",
+      "readings": []
+    }
+  ]
+}
